@@ -1,0 +1,11 @@
+#Porta onde a aplicação será executada
+server:
+  port: 8091
+
+  #Configurações de conexão com a instância do RabbitMQ
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
